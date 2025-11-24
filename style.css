@@ -1,0 +1,27 @@
+.cat-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+.cat-container .cat-breed{
+    flex: 1 1 300px;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+.cat-container .cat-breed img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+h3{
+    margin: 0.5em 0;
+}
+p{
+    margin: 0.5em 0 1em;
+}
